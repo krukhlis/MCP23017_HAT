@@ -8,14 +8,14 @@ ic1_pin_base = 65
 # pin number to code number:
 # 1 = 65, 2 = 66, 3 = 67, 4 = 68, 5 = 69, 6 = 70, 7 = 71, 8 = 72, 9 = 73, 10 = 74, 11 = 75, 12 = 76, 13 = 77, 14 = 78, 15 = 79, 16 = 80
 # define the i2c address of ic1, this is set by the jumpers on the HAT
-ic1_i2c_addr = 0x20
+ic1_i2c_addr = 0x24
 
 # set the base number of ic2, this can be any number above (not including) 80. Pins 65 - 80 have been allocated to IC1 as defined above.
 ic2_pin_base = 81
 # pin number to code number:
 # 1 = 81, 2 = 82, 3 = 83, 4 = 84, 5 = 85, 6 = 86, 7 = 87, 8 = 88, 9 = 89, 10 = 90, 11 = 91, 12 = 92, 13 = 93, 14 = 94, 15 = 95, 16 = 96
 # define the i2c address of ic2, this is set by the jumpers on the HAT
-ic2_i2c_addr = 0x24
+ic2_i2c_addr = 0x20
 
 # initiate the wiringpi library
 wiringpi.wiringPiSetup()
